@@ -1,1 +1,1 @@
-# rspace
+Shows the maximum hit rate when features are deleted from data.
