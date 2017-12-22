@@ -30,8 +30,6 @@ def get_error(data, indexes_r, delta, c_list, d_or_c):
 			max_list.append(max([i[column] for i in data]))
 			min_list.append(min([i[column] for i in data]))
 			discrete_list.append([])
-	print(max_list)
-	print(min_list)
 	# saves the classification of each point
 	for i in range(len(data)):
 		hash_indexes = [] # it will indicate where the point will be saved
